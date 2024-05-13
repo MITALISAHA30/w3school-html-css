@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    margin:0px
+}
+body{
+    height:5000px;
+}
+.a{
+    top:0px;
+    left: 0px;
+    width:45%;
+    height: 100px;
+    float: left;  
+    position: fixed;
+    background-color: white;
+
+}
+.b li{
+    display: inline-block;
+    padding:  30px;
+    font-size: 25px;
+}
+.b li:hover{
+        background-color:#04AA6D;
+        cursor: pointer;
+}
+.c{
+  width: 50px;
+ height: 40px;
+    position: absolute;
+
+}
+.d{
+    border-radius: 20px;
+    width:140px;
+    height: 25px;
+    border: 1px solid rgb(89, 89, 89);
+    margin-top: 30px;
+}
+.e{
+    width: 55%;
+    height: 100px;
+    float: left;
+   position: fixed;
+   margin-left: 828px;
+   background-color:white;
+}
+.f{
+    background-image: url('job.jpg');
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            width:100px;
+            height: 30px;
+            padding-left: 30px;
+            border: 0px;
+            background-color:white;  
+            margin-top: 30px;
+            margin-left: 50px;
+            font-size: 20px;               
+}
+.f:hover{
+        background-color: gray;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.g{
+    background-image: url('spaces.png');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            width:100px;
+            height: 30px;
+            padding-left: 30px;
+            border: 0px;
+            background-color:white;  
+            margin-top: 30px;
+            margin-left:50px;
+            font-size: 20px;               
+}
+.g:hover{
+        background-color: gray;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.h{
+    background-image: url('shopping.png');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            width:150px;
+            height: 30px;
+            padding-left: 30px;
+            border: 0px;
+            background-color:white;  
+            margin-top: 30px;
+            margin-left: 50px;
+            font-size: 20px;               
+}
+.h:hover{
+        background-color: gray;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.i{
+    background-color: rgb(8, 166, 108);
+    color: white;
+    margin-left: 50px;
+    width:100px;
+            height: 40px;
+            border-radius: 15px;
+            border: 0px;
+}
+.i{
+    cursor: pointer;
+}
+.j{
+    background-color: rgb(66, 125, 104);
+    color: white;
+    margin-left:0px;
+    width:100px;
+            height: 40px;
+            border-radius: 15px;
+            border: 0px;
+}
+.j:hover{
+    background-color: rgb(8, 166, 108);
+    cursor: pointer;
+}
+ .k{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    clear: both;
+    position: fixed;
+    margin-top: 101px;
+ }   
+ .l li{
+    display: inline-block;
+    color: white;
+    padding:20px  35px; 
+ }
+ .l li:hover{
+    background-color:#04AA6D ;
+ }
+ .m{
+    width: 15%;
+    background-color: #E7E9EB;
+    float: left;
+    position: fixed;
+    margin-top: 156px;
+    overflow: auto;
+    height: 770px;
+ }
+ .n{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+ }
+.o{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.o:hover{
+    cursor: pointer;
+    background-color:#a6a9ac ;
+}
+ .p{
+    width: 65%;
+    float: left;
+    margin-top:150px;
+    margin-left: 278px;
+    height: 4800px;
+ }
+ .q{
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 90px;
+ }
+ .r{
+    background-color:#04AA6D; 
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 0px solid;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .r:hover{
+background-color:#047f52; 
+ }
+ .s{
+    background-color:#04AA6D; 
+    color: white;
+    margin-left: 900px;
+    font-size: 25px;
+    border: 0px solid;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .s:hover{
+ background-color:#047f52; 
+ }
+ .t{
+    width: 100%;
+    background-color: #D9EEE1; 
+    margin-top: 30px;
+    height: 290px;
+ }
+.u{
+    margin-left: 20px;
+    font-size: 25px;
+   padding-top: 40px;
+}
+.v{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color:#04AA6D; 
+    color: white;
+    font-size: 25px;
+    border: 0px solid;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.v:hover{
+    background-color:#047f52;  
+}
+.w{
+   margin-top: 30px;  
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.x{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 35px; 
+}
+.y{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.z{
+    margin-left: 10px;
+    margin-top: 30px;
+    width:98%;
+    background-color: gainsboro;
+    border-radius: 8px;
+    height: 500px;
+}
+.aa{
+    margin-left: 10px;
+}
+.ab{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    width:98%;
+    height: 300px;
+    border-left: 4px solid #04AA6D; ;
+}
+.ad{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color:#04AA6D; 
+    color: white;
+    font-size: 20px;
+    border: 0px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ad:hover{
+    background-color:#047f52;  
+}
+.ae{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.af{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #E7E9EB;
+    color: black;
+    font-size: 20px;
+    border: 0px solid;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.af:hover{
+    background-color:#047f52 ;
+}
+.ag{
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 30px;
+    width:98%;
+    height: 500px;
+    border-radius: 5px;
+}
+.ah{
+    color: white;
+    margin-left: 20px;
+    font-size: 45px;
+    padding-top: 20px;
+}
+.ai{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    width:98%;
+    height: 380px;
+}
+.aj{
+    font-size: 38px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+.ak{
+    font-size: 26px;
+   margin-top: 30px;
+    margin-left: 10px;
+}
+.al{
+    background-color: #E7E9EB;
+    margin-left: 10px;
+    margin-top: 30px;
+    width:98%;
+    height: 50px;
+}
+.am{
+    width: 30px;
+    margin-left: 10px;
+}
+.an{
+    margin-left: 30px;
+    font-size: 23px;
+}
+.ao{
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color:#04AA6D; 
+    color: white;
+    font-size: 20px;
+    border: 0px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ao:hover{
+    background-color:#047f52 ;
+}
+.ap{
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.ap:hover{
+  color:#047f52 ;
+}
+.aq{
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color:rgb(53, 157, 222); 
+    color: white;
+    font-size: 20px;
+    border: 0px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.aq:hover{
+    background-color: rgb(41, 140, 201);
+}
+.ar{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 1000px;
+}
+.as{
+    width: 100%;
+    height: 600px;
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.at{
+    width: 31.5%;
+    height: 50px;
+    background-color:#E7E9EB;
+    margin-top: 10px;
+    margin-left: 16px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.at:hover{
+    background-color: black;
+    color: white;
+}
+.au{
+margin-top: 30px;
+width: 98%;
+height: 400px;
+background-color: #282A35;
+border-radius: 16px;
+}
+.av{
+    font-size: 50px;
+    color: #FFC0C7;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.aw{
+    font-size: 45px;
+    color: #FFC0C7;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.ax{
+    background-color: #04AA6D;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: 0px ;
+    color: white;
+    cursor: pointer;
+}
+.ax:hover{
+    background-color:#047f52 ;
+}
+.ay{
+    width: 320px;
+    height: 320px;
+    border-radius: 360px;
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 8px;
+cursor: pointer;
+top:4187px;
+left: 1050px;
+}
+.az{
+    background-color:#04AA6D; 
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 0px solid;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 150px;
+ }
+ .az:hover{
+background-color:#047f52; 
+ }
+.ba{
+    background-color:#04AA6D; 
+    color: white;
+    margin-left: 900px;
+    font-size: 25px;
+    border: 0px solid;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+.ba:hover{
+background-color:#047f52; 
+ }
+ .bb{
+    border:0px;
+    margin-top: 20px;
+    cursor: pointer;
+    width:99%;
+ }
+ .bc{
+    width: 20%;
+    float: left;
+    height: 4800px;
+ }
+ .be{
+    width: 100%;
+ }
+</style>
+</head>
+<body>
+    <div class="a">
+        <ul class="b">
+            <li><img src="w3school2.webp" class="c"></li>
+            <li>Tutorials</li>
+            <li>Exercises</li>
+            <li>Certificates</li>
+            <li>Services</li>
+        </ul>
+    </div>
+    <div class="e">
+        <input type="text" placeholder="Serach..." class="d">
+        <input type="button" value="Jobs" class="f">
+        <input type="button" value="Spaces" class="g">
+        <input type="button" value="Get Certified" class="h">
+        <input type="button" value="Sign Up" class="i">
+        <input type="button" value="Log in" class="j">
+    </div>
+    <div class="k">
+        <ul class="l" >
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>SQL</li>
+            <li>PYTHON</li>
+            <li>SQL</li>
+            <li>JAVA</li>
+            <li>PHP</li>
+            <li>HOW TO</li>
+            <li>W3.CSS</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>BOOTSTRAP </li>
+            <li>REACT</li>
+            <!--<li>MYSQL</li>
+            <li>JQUERY</li>
+            <li>EXCEL</li>
+            <li>XML</li>
+            <li>DJANGO</li>
+            <li>NUMPY</li>
+            <li>NODEJS</li>
+            <li>R</li>
+            <li>TYPESCRIPT</li>
+            <li>ANGULAR</li>
+            <li>POSTGRESQL</li>
+            <li>MONGODB</li>
+            <li>AI</li>
+            <li>ASP</li>
+            <li>GO</li>
+            <li>KOTLIN</li>
+            <li>SASS</li>
+            <li>VUE</li>
+            <li>DSA</li>
+            <li>GEN AI</li>
+            <li>SCIPY</li>
+            <li>AWS</li>
+            <li>CYBERSECURITY</li>
+            <li>DATA SCIENCE</li>-->
+        </ul>     
+    </div>
+    <div class="m">
+    <h2 class="n">HTML Tutorial</h2>
+<p class="o"> HTML HOME</p>
+<p class="o">HTML Introduction</p>
+<p class="o">HTML Editors</p>
+<p class="o">HTML Basic</p>
+<p class="o">HTML Elements</p>
+<p class="o">HTML Attributes</p>
+<p class="o"> HTML Headings</p>
+<p class="o"> HTML Paragraphs</p>
+<p class="o"> HTML Styles</p>
+<p class="o">  HTML Formatting</p>
+<p class="o">  HTML Quotations</p>
+<p class="o"> HTML Comments</p>
+<p class="o"> HTML Colors</p>
+<p class="o"> HTML CSS</p>
+<p class="o"> HTML Links</p>
+<p class="o"> HTML Images</p>
+<p class="o"> HTML Favicon</p>
+<p class="o"> HTML Page Title</p>
+<p class="o"> HTML Tables</p>
+<p class="o"> HTML Lists</p>
+<p class="o"> HTML Block & Inline</p>
+<p class="o">HTML Div</p>
+<p class="o">  HTML Classes</p>
+<p class="o">  HTML Id</p>
+<p class="o"> HTML Iframes</p>
+<p class="o">  HTML JavaScript</p>
+<p class="o">  HTML File Paths</p>
+<p class="o">  HTML Head</p>
+<p class="o"> HTML Layout</p>
+<p class="o"> HTML Responsive</p>
+<p class="o">  HTML Computercode</p>
+<p class="o">  HTML Semantics</p>
+<p class="o"> HTML Style Guide</p>
+<p class="o"> HTML Entities</p>
+<p class="o">  HTML Symbols</p>
+<p class="o"> HTML Emojis</p>
+<p class="o">HTML Charsets</p>
+<p class="o">HTML URL Encode</p>
+<p class="o">HTML vs. XHTML</p>
+
+    <h2 class="n"> HTML Forms</h2>
+<p class="o">HTML Forms</p>
+<p class="o">HTML Form Attributes</p>
+<p class="o">HTML Form Elements</p>
+<p class="o">HTML Input Types</p>
+<p class="o"> HTML Input Attributes</p>
+<p class="o">HTML Input Form Attributes</p>
+
+    <h2 class="n">HTML Graphics</h2>
+<p class="o">HTML Canvas</p>
+<p class="o">HTML SVG</p>
+
+    <h2 class="n">HTML Media</h2>
+<p class="o">HTML Media</p>
+<p class="o"> HTML Video</p>
+<p class="o"> HTML Audio</p>
+<p class="o">HTML Plug-ins</p>
+<p class="o"> HTML YouTube</p>
+
+    <h2 class="n">HTML APIs</h2>
+<p class="o"> HTML Geolocation</p>
+<p class="o">HTML Drag/Drop</p>
+<p class="o"> HTML Web Storage</p>
+<p class="o"> HTML Web Workers</p>
+<p class="o"> HTML SSE</p>
+
+   <h2 class="n">HTML Examples</h2> 
+    <p class="o">HTML Examples</p>
+    <p class="o">HTML Editor</p>
+    <p class="o">HTML Quiz</p>
+    <p class="o">HTML Exercises</p>
+    <p class="o">HTML Website</p>
+    <p class="o">HTML Bootcamp</p>
+    <p class="o">HTML Certificate</p>
+   <p class="o">HTML Summary</p> 
+    <p class="o">HTML Accessibility</p>
+
+   <h2 class="n">HTML References</h2>
+    <p class="o">HTML Tag List</p>
+    <p class="o">HTML Attributes</p>
+   <p class="o">HTML Global Attributes</p> 
+    <p class="o">HTML Browser Support</p>
+    <p class="o">HTML Events</p>
+   <p class="o">HTML Colors</p> 
+    <p class="o">HTML Canvas</p>
+    <p class="o">HTML Audio/Video</p>
+    <p class="o">HTML Doctypes</p>
+    <p class="o">HTML Character Sets</p>
+    <p class="o">HTML URL Encode</p>
+    <p class="o">HTML Lang Codes</p>
+    <p class="o">HTTP Messages</p>
+    <p class="o">HTTP Methods</p>
+    <p class="o">PX to EM Converter</p>
+    <p class="o">Keyboard Shortcuts</p>
+
+    </div>
+
+    <div class="p">
+        <p class="q">HTML Tutorial</p>
+        <input type="button" value="<Home" class="r">
+        <input type="button" value="Next>" class="s">
+        <div class="t">
+            <p class="u">HTML is the standard markup language for Web pages.<br><br> With HTML you can create your own Website.<br><br>HTML is easy to learn - You will enjoy it!</p>
+            <input type="button" value="Study our free HTML Tutorial>>" class="v">
+        </div>
+        <hr class="w"> 
+        <p class="x">Easy Learning with HTML "Try it Yourself"</p>
+        <p class="y">With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+        <div class="z">
+            <h1 class="aa">Example</h1>
+            <div class="ab"><p>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <title>Page Title</title>
+                </head>
+                <body>
+                <h1>This is a Heading</h1>
+                <p>This is a paragraph.</p>
+                </body>
+                </html>
+            </p>
+            </div>
+            <input type="button" value="Try it Yourself>>" class="ad">
+        </div>
+        <p class="ae"><b>Click on the "Try it Yourself" button to see how it works.</b></p>
+        <hr class="w">
+        <p class="x">HTML Examples</p>
+        <p class="y">In this HTML tutorial, you will find more than 200 examples. With our online "Try it Yourself" editor, you can edit and test each example yourself!:</p>
+        <input type="button" value="Go to HTML Examples!" class="af">
+        <hr class="w">
+        <p class="x">HTML Exercises</p>
+        <p class="y">This HTML tutorial also contains nearly 100 HTML exercises.</p>
+       <div class="ag">
+        <p class="ah">Test Yourself With Exercises</p>
+        <div class="ai">
+            <p class="aj">Exercise:</p>
+            <p class="ak">Add a "tooltip" to the paragraph below with the text "About W3Schools".</p>
+            <div class="al"><p class="an" >p<input type="text" class="am">="About W3Schools">W3Schools is a web developer's site./p</p></div>
+            <input type="button" value="Submit Answer>>" class="ao"><br><br><br>
+            <a href="#" class="ap"> Start the Exercise</a>
+        </div>
+         </div>
+        <hr class="w">
+        <p class="x">HTML Quiz Test</p>
+        <p class="y">Test your HTML skills with our HTML Quiz!.</p>
+        <input type="button" value="Start HTML Quiz!" class="aq">
+        <hr class="w">
+        <p class="x">My Learning</p>
+        <p class="y">Track your progress with the free "My Learning" program here at W3Schools.<br><br>Log in to your account, and start earning points!<br><br>This is an optional feature. You can study at W3Schools without using My Learning.</p>
+         <img src="w3school1.png" class="ar" >
+         <hr class="w">
+         <p class="x">HTML References</p>
+         <p class="y">At W3Schools you will find complete references about HTML elements, attributes, events, color names, entities, character-sets, URL encoding, language codes, HTTP messages, browser support, and more:</p>
+        <div class="as">
+            <div class="at">HTML Element</div>
+            <div class="at">Browser Support</div>
+            <div class="at">Attribute</div>
+            <div class="at">Global Attributes</div>
+            <div class="at">Event Attributes</div>
+            <div class="at">Color name</div>
+            <div class="at">Canvas</div>
+            <div class="at">Audio/Video DOM</div>
+            <div class="at">Character Sets</div>
+            <div class="at">URL Encoding</div>
+            <div class="at">Language Codes</div>
+            <div class="at">Country Codes</div>
+            <div class="at">HTTP Messages</div>
+            <div class="at">Px to Em Converter</div>
+            <div class="at">Keyboard Shortcuts</div>
+        </div>
+        <div class="au">
+           <p class="av"> Kickstart yout career</p>
+           <p class="aw">Get Certified by completing the HTML course</p>
+            <input type="button" value="Get certified" class="ax">
+            <img src="w3school3.jpeg" class="ay">
+        </div>
+        <input type="button" value="<Home" class="az">
+        <input type="button" value="Next>" class="ba">
+        <img src="w3school4.jpeg" class="bb" >
+        </div>
+        <div class="bc"></div>
+    
+ 
+
+
+    
+</body>
+</html>
